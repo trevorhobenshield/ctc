@@ -31,7 +31,6 @@ class RNN:
 
         :param y: sequence of network outputs (probability distributions)
         :param x_z: sequence (x,z) from the set of training examples S
-        :param self.BLANK: the blank symbol
         :return: negative log likelihood and gradients
         """
 
